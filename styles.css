@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(222, 235, 240);
+}
+
+.first-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 150px;
+}
+
+.header-left{
+    font-size: 30px;
+    padding-left: 50px;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 10px;
+}
+
+
+.header-right{
+    padding-right: 25px;
+    display: flex;
+    font-size: 30px;
+}
+
+.get-started{
+    color: rgb(5, 187, 254);
+    background-color: rgb(222, 235, 240);
+    width:125px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: rgb(5, 187, 254);
+}
+
+.second-section{
+    margin-bottom: 150px;
+}
+
+.small-title-one {
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.big-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.second-section-p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.email-and-subscribe{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.subscribe{
+    background-color: rgb(255, 98, 0);
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+.small-title-two{
+    display: flex;
+   justify-content: center;
+}
+
+.third-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.third-section-left-title, .third-section-middle-title, .third-section-right-title{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.third-section-left-description, .third-section-middle-description, .third-section-right-description{
+    font-style: italic;
+}
